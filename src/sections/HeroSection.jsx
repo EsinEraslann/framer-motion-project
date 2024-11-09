@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion"; // motion'ı import et
+import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
@@ -10,9 +10,9 @@ function HeroSection() {
       <div className="container px-4 md:px-6 ">
         <div className="gap-4 grid grid-cols-1 lg:grid-cols-2 md:gap-16 flex items-center">
           <motion.div
-            initial={{ opacity: 0, y: 50 }} // Başlangıç durumu: opaklık yok, yukarıdan hafif kayma
-            animate={{ opacity: 1, y: 0 }} // Görünür olduğunda, opaklık artar ve kayma biter
-            transition={{ duration: 1.5, ease: "easeOut" }} // Yavaşça geçiş
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 1.5, ease: "easeOut" }} 
           >
             <h1 className="text-4xl font-extrabold mb-4">
               Revolutionize Passport Travel Records Management
@@ -32,9 +32,9 @@ function HeroSection() {
             alt="heroimage"
             className="mx-auto"
             src="assets/mobile-phone.png"
-            initial={{ opacity: 0, scale: 0.95 }} // Başlangıçta resim küçük ve opak değil
-            animate={{ opacity: 1, scale: 1 }} // Görünür olduğunda resim normal boyutta ve opak
-            transition={{ duration: 1.5, ease: "easeOut" }} // Yavaşça geçiş
+            initial={{ opacity: 0, scale: 0.95 }} 
+            animate={{ opacity: 1, scale: 1 }} 
+            transition={{ duration: 1.5, ease: "easeOut" }} 
           />
         </div>
       </div>

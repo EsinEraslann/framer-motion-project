@@ -9,18 +9,18 @@ function Features() {
           <div>
             <motion.h2
               className="text-3xl font-bold text-primary mb-4"
-              initial={{ opacity: 0, y: 50 }} // Başlangıç durumu
-              whileInView={{ opacity: 1, y: 0 }} // Görünür olduğunda animasyon
-              viewport={{ once: false }} // Sayfada her kaydırmada tekrar animasyonu başlat
+              initial={{ opacity: 0, y: 50 }} 
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }}
               transition={{ duration: 1 }}
             >
               Advanced Data Extraction Technology
             </motion.h2>
             <motion.h1
               className="text-4xl font-bold mb-4"
-              initial={{ opacity: 0, y: 50 }} // Başlangıç durumu
-              whileInView={{ opacity: 1, y: 0 }} // Görünür olduğunda animasyon
-              viewport={{ once: false }} // Sayfada her kaydırmada tekrar animasyonu başlat
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }}
               transition={{ duration: 1, delay: 0.2 }}
             >
               Efficient and Accurate Scanning at Your Fingertips
@@ -66,18 +66,18 @@ function Features() {
           <div>
             <motion.h2
               className="text-3xl font-bold text-primary mb-4"
-              initial={{ opacity: 0, y: 50 }} // Başlangıç durumu
-              whileInView={{ opacity: 1, y: 0 }} // Görünür olduğunda animasyon
-              viewport={{ once: false }} // Sayfada her kaydırmada tekrar animasyonu başlat
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false }} 
               transition={{ duration: 1 }}
             >
               Seamless Travel History Organization
             </motion.h2>
             <motion.h1
               className="text-4xl font-bold mb-4"
-              initial={{ opacity: 0, y: 50 }} // Başlangıç durumu
-              whileInView={{ opacity: 1, y: 0 }} // Görünür olduğunda animasyon
-              viewport={{ once: false }} // Sayfada her kaydırmada tekrar animasyonu başlat
+              initial={{ opacity: 0, y: 50 }} 
+              whileInView={{ opacity: 1, y: 0 }} 
+              viewport={{ once: false }} 
               transition={{ duration: 1, delay: 0.2 }}
             >
               Easily Track Your Past Journeys
@@ -100,9 +100,9 @@ function Features() {
         <div className="flex flex-col items-center">
           <motion.h1
             className="text-6xl font-bold mb-4 text-center"
-            initial={{ opacity: 0, y: 50 }} // Başlangıç durumu
-            whileInView={{ opacity: 1, y: 0 }} // Görünür olduğunda animasyon
-            viewport={{ once: false }} // Sayfada her kaydırmada tekrar animasyonu başlat
+            initial={{ opacity: 0, y: 50 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
+            viewport={{ once: false }} 
             transition={{ duration: 1 }}
           >
             Big Feature Display
