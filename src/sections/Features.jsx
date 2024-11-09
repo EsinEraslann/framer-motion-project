@@ -8,7 +8,7 @@ function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <motion.h2
-              className="text-3xl font-bold text-primary mb-4"
+              className="text-3xl font-bold text-accent-foreground mb-4"
               initial={{ opacity: 0, y: 50 }} 
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
@@ -65,7 +65,7 @@ function Features() {
 
           <div>
             <motion.h2
-              className="text-3xl font-bold text-primary mb-4"
+              className="text-3xl font-bold text-accent-foreground mb-4"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }} 

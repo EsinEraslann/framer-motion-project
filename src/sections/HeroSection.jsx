@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <section className="w-full py-12">
+    <section className="w-full py-4">
       <div className="circlePosition w-full h-full bg-[#36a0d142] rounded-[100%] absolute -z-10 blur-[100px] flex justify-center items-center">
         <div className="circle w-[17rem] h-[17rem] bg-[#26b9fd42] rounded-[100%]" />
       </div>
@@ -24,7 +24,7 @@ function HeroSection() {
 
             <div className="flex items-left gap-6">
               <Button variant="outline">Sign In</Button>
-              <Button>Get Started</Button>
+              <Button >Get Started</Button>
             </div>
           </motion.div>
 
