@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="flex container justify-between px-4">
         <div className="flex items-center">
-          <img src="/assets/logo-testt.png" alt="EasyPass Logo" className="w-8 h-8 mr-2" />
+          <img src="/assets/EasyPass-Logo-Transparent.png" alt="EasyPass Logo" className="w-8 h-8 mr-2" />
           <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
             EasyPass
           </a>
