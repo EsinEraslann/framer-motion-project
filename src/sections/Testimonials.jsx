@@ -15,7 +15,7 @@ function Testimonials() {
       <div className="flex flex-col items-center justify-center space-y-8 mx-auto">
         <div className="text-center">
           <Badge variant="outline">Our Satisfied Customers</Badge>
-          <h1 className="py-4 text-6xl font-bold">Client Testimonials</h1>
+          <h1 className="py-4 text-4xl lg:text-6xl font-bold">Client Testimonials</h1>
         </div>
         <Carousel
           opts={{

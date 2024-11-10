@@ -8,7 +8,7 @@ function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <motion.h2
-              className="text-3xl font-bold text-accent-foreground mb-4"
+              className="text-3xl font-bold text-accent-foreground mb-4 leading-10"
               initial={{ opacity: 0, y: 50 }} 
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
@@ -17,7 +17,7 @@ function Features() {
               Advanced Data Extraction Technology
             </motion.h2>
             <motion.h1
-              className="text-4xl font-bold mb-4"
+              className="text-4xl font-bold mb-4 leading-10"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
@@ -44,7 +44,7 @@ function Features() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div>
             <img
@@ -57,7 +57,7 @@ function Features() {
 
           <div>
             <motion.h2
-              className="text-3xl font-bold text-accent-foreground mb-4"
+              className="text-3xl font-bold text-accent-foreground mb-4 leading-10"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }} 
@@ -66,7 +66,7 @@ function Features() {
               Seamless Travel History Organization
             </motion.h2>
             <motion.h1
-              className="text-4xl font-bold mb-4"
+              className="text-4xl font-bold mb-4 leading-10"
               initial={{ opacity: 0, y: 50 }} 
               whileInView={{ opacity: 1, y: 0 }} 
               viewport={{ once: false }} 
@@ -91,7 +91,7 @@ function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col items-center">
           <motion.h1
-            className="text-6xl font-bold mb-4 text-center"
+            className="text-4xl lg:text-6xl font-bold mb-4 text-center"
             initial={{ opacity: 0, y: 50 }} 
             whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: false }} 

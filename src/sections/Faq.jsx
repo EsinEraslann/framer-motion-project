@@ -7,7 +7,7 @@ function Faq() {
     <section className="py-12 w-full max-w-4xl p-6 mx-auto">
       <div className="text-center">
         <Badge variant="outline">FAQs</Badge>
-        <h1 className="py-4 text-6xl font-bold">Frequently Asked Questions</h1>
+        <h1 className="py-4 text-4xl lg:text-6xl font-bold">Frequently Asked Questions</h1>
       </div>
 
       <div className="mt-6">

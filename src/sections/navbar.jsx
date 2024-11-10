@@ -75,11 +75,6 @@ const Navbar = () => {
           {/* ... navigation links here */}
           <ul className='space-y-4 font-semibold'>
             <li>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-primary">Ipsum</a>
-            </li>
-            <li>
               <a href="#" className="block hover:text-primary">Blog</a>
             </li>
             <li>

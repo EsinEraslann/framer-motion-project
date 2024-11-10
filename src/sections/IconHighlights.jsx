@@ -19,7 +19,7 @@ function IconHighlights() {
             <div className="flex justify-center lg:justify-start">
               <TbUserScan size={32} />
             </div>
-            <p className="text-lg leading-loose">
+            <p className="text-lg leading-6">
               Easily scan MRZ codes from passports and quickly retrieve key travel details. No more manual data entry—just a fast and efficient way to track your international travels.
             </p>
           </motion.div>
@@ -35,7 +35,7 @@ function IconHighlights() {
             <div className="flex justify-center lg:justify-start">
               <MdOutlinePrivacyTip size={32} />
             </div>
-            <p className="text-lg leading-loose">
+            <p className="text-lg leading-6">
               We prioritize your data security with advanced encryption, ensuring that all your scanned passport information remains private and protected.
             </p>
           </motion.div>
@@ -51,7 +51,7 @@ function IconHighlights() {
             <div className="flex justify-center lg:justify-start">
               <FaPassport size={32} />
             </div>
-            <p className="text-lg leading-loose">
+            <p className="text-lg leading-6">
               Digitally organize and view your travel history by accessing scanned passport stamps, making it easy to see where you’ve been and when.
             </p>
           </motion.div>

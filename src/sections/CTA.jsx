@@ -1,22 +1,28 @@
 import { Button } from "@/components/ui/button";
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight } from "lucide-react";
 
 function CTA() {
   return (
-    <section className='py-12 container px-4 md:px-6'>
+    <section className="py-12 container px-4 md:px-6">
       <div className="bg-primary rounded-lg p-8 shadow-md text-foreground">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div className="text-center lg:text-left container space-y-6"> {/* Increased vertical spacing */}
-            <h6 className="text-sm font-medium uppercase">EasyPass</h6>
-            <h1 className="text-6xl font-bold mb-8">Lorem ipsum dolor</h1> {/* Increased bottom margin */}
-            <p className="text-lg leading-loose"> {/* Increased line-height */}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
+          <div className="text-center lg:text-left container space-y-6">
+            <p className="text-4xl font-bold mb-8 leading-10">
+              Scan, Track, and Travel Effortlessly
+            </p>{" "}
+            {/* Increased bottom margin */}
+            <p className="text-lg leading-6">
+              Eliminate the clutter of passport stamps and embrace a digital
+              solution for your travel history. By simply scanning the MRZ code
+              of your passport, access an organized list of your visited
+              countries—bringing clarity and convenience to your journeys
             </p>
-            <Button variant="outline"> Get Started <ChevronRight/></Button>
+            <Button variant="outline">
+              {" "}
+              Get Started <ChevronRight />
+            </Button>
           </div>
-          <div className='flex justify-center'>
+          <div className="flex justify-center">
             <img
               alt="f1"
               height="720"
