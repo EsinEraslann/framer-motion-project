@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div className="flex container justify-between px-4">
         <div className="flex items-center">
-          <img src="/assets/EasyPass-Logo-Transparent.png" alt="EasyPass Logo" className="w-8 h-8 mr-2" />
+          <img src="/assets/logo-white.png" alt="EasyPass Logo" className="w-16 h-16 mr-2" />
           <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
             EasyPass
           </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
         {/* Sign in and Get Started buttons for larger screens */}
         <div className="hidden md:flex items-center space-x-4">
           <Button variant="outline">Sign In</Button>
-          <Button>Get Started</Button>
+          <Button>Open Account</Button>
         </div>
 
         {/* Navigation menu for smaller devices */}

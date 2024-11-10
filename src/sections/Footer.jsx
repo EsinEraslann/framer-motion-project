@@ -9,7 +9,7 @@ function Footer() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-start">
           <div className="py-4 flex items-center">
-            <img src="/assets/EasyPass-Logo-Transparent.png" alt="EasyPass Logo" className="w-8 h-8 mr-2" />
+            <img src="/assets/logo-white.png" alt="EasyPass Logo" className="w-16 h-16 mr-2" />
             <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
               EasyPass
             </a>

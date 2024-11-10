@@ -23,8 +23,8 @@ function HeroSection() {
             </p>
 
             <div className="flex items-left gap-6">
-              <Button variant="outline">Sign In</Button>
-              <Button >Get Started</Button>
+              <Button variant="outline">DOWNLOAD 3-DAY TRIAL</Button>
+             {/* <Button >Get Started</Button> */}
             </div>
           </motion.div>
 

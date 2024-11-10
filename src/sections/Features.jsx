@@ -35,31 +35,23 @@ function Features() {
 
           <div>
             <img
-              alt="f1"
-              className="mx-auto"
-              height="400"
-              src="assets/f1.png"
-              style={{
-                aspectRatio: "400/400",
-              }}
-              width="400"
+              alt="scanning password"
+              className="mx-auto rounded-md"
+              src="assets/scan-password.png"
+              width="500"
             />
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-7xl mx-auto py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center">
           <div>
             <img
-              alt="f1"
-              className="mx-auto"
-              height="400"
-              src="assets/f1.png"
-              style={{
-                aspectRatio: "400/400",
-              }}
-              width="400"
+              alt="scanning password"
+              className="mx-auto rounded-md"
+              src="assets/scan-password-2.png"
+              width="500"
             />
           </div>
 
